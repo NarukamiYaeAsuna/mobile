@@ -1,0 +1,155 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'Samsung Sharp Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sharp Sans Regular'), url('samsungsharpsans.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Samsung Sharp Sans Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sharp Sans Medium'), url('samsungsharpsans-medium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Samsung Sharp Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sharp Sans Bold'), url('samsungsharpsans-bold.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'Samsung Sharp Sans Bold VH';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Samsung Sharp Sans Bold VH'), url('iCiel-SamsungSharpSans-Bold_SMCPS.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Samsung Sharp Sans Regular OpenType';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Samsung Sharp Sans Regular OpenType'), url('samsungsharpsans.otf') format('opentype');
+        }
+        
+    
+        @font-face {
+        font-family: 'Samsung Sharp Sans Medium OpenType';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Samsung Sharp Sans Medium OpenType'), url('samsungsharpsans-medium.otf') format('opentype');
+        }
+        
+    
+        @font-face {
+        font-family: 'Samsung Sharp Sans Bold OpenType';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Samsung Sharp Sans Bold OpenType'), url('samsungsharpsans-bold.otf') format('opentype');
+        }
+
+.content-left{
+    margin-right: 60%;
+}
+
+.content-right{
+    margin-left: 50%;
+    margin-top: -5180px;
+    position:unset;
+}
+
+.odd{
+    background-color: #ecf0f1;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+.spec-value{
+    display: flex;
+    margin-left: 42%;
+}
+
+.spec-name{
+    width: 170px;
+}
+
+.title{
+    font-family: 'Samsung Sharp Sans Bold VH';
+}
+
+h2, h3{
+    font-family: 'Samsung Sharp Sans Bold VH';
+}
+
+.Large360Viewer__Headline.-Normal {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-family: SST W01 Roman, sans-serif, Helvetica Neue, Helvetica, Arial;
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    color: #2f353d;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    letter-spacing: -.04rem;
+ }
+ 
+ .PdpHeaderText__Headline {
+    display: flex;
+    justify-content: center;
+    font-family: SST W01 Roman, sans-serif, Helvetica Neue, Helvetica, Arial;
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    color: #2f353d;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    letter-spacing: -.04rem;
+    margin-top: 0;
+    margin-bottom: .75rem;
+ }
+ 
+ .PdpHeaderText__BodyCopy {
+    display: flex;
+    justify-content: center;
+    font-family: SST W01 Roman, sans-serif, Helvetica Neue, Helvetica, Arial;
+    font-weight: 400;
+    font-style: normal;
+    color: #6b6b7b;
+    font-size: .9375rem;
+    line-height: 1.46667;
+ }
+ 
+ .Xperia-pr{
+    width: 650px;
+    display: flex;
+    margin-left: 1px;
+    font-size: .75rem;
+    line-height: 1.5;
+ }
